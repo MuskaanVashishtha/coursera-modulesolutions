@@ -42,7 +42,6 @@ p {
   padding: 5px;
   margin: 0px;
   border: 1px solid black;
- 
   text-align: center;
   font-size: 125%;
   font-weight: bold;
@@ -56,7 +55,6 @@ p {
   padding: 5px;
   margin: 0px;
   border: 1px solid black;
-  
   text-align: center;
   font-size: 125%;
   font-weight: bold;
@@ -70,7 +68,6 @@ p {
   padding: 5px;
   margin: 0px;
   border: 1px solid black;
-  
   text-align: center;
   font-size: 125%;
   font-weight: bold;
@@ -108,13 +105,13 @@ p {
 /*MEDIUM DEVICES/ TABLET VERSION */
 /*  */
 @media (min-width: 768px) and (max-width: 991px) {
-  .colmn-md-6 {
+  .column-md-6 {
     float: left;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
   }
-  .colmn-md-12 {
+  .column-md-12 {
     float: left;
     width: 100%;
     margin-left: auto;
@@ -124,7 +121,7 @@ p {
 /*SMALL DEVICES / MOBILE VERSION */
 /*  */
 @media (max-width: 767px) {
-  .colmn-sm-12 {
+  .column-sm-12 {
     float: left;
     width: 100%;
   }
